@@ -10,7 +10,7 @@
 <br>php herutok.php
 
 <br>Untuk proses selanjutnya cukup ketik:
-<br>cd GOJEKHEMAT
+<br>cd makanenak
 <br>php herutok.php
 
 <br>Jika ada update terbaru tinggal ketik:
