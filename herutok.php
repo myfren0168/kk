@@ -69,7 +69,7 @@ echo color("yellow","[] Format Penulisan Nomor 62xxxxxxxx  []\n");
         echo color("white",".");
         sleep(35);
         }
-        $code1 = request('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"COBAGOFOOD0906"}');
+        $code1 = request('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"COBAGOFOOD2206"}');
         $message = fetch_value($code1,'"message":"','"');
         if(strpos($code1, 'Promo kamu sudah bisa dipakai.')){
         echo "\n".color("green","Message: ".$message);
@@ -83,7 +83,7 @@ echo color("yellow","[] Format Penulisan Nomor 62xxxxxxxx  []\n");
         echo color("white",".");
         sleep(3);
         }
-        $code1 = request('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"PAKEGOFOOD0906"}');
+        $code1 = request('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"PAKEGOFOOD2206"}');
         $message = fetch_value($code1,'"message":"','"');
         echo "\n".color("white"," Message: ".$message);
         echo "\n".color("white"," REFRESH..");
@@ -93,7 +93,7 @@ echo color("yellow","[] Format Penulisan Nomor 62xxxxxxxx  []\n");
         sleep(3);
         }
         sleep(3);
-        $voc01 = request('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"COBAGOFOOD0906"}');
+        $voc01 = request('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"COBAGOFOOD2206"}');
         $messagevoc01 = fetch_value($voc01,'"message":"','"');
         echo "\n".color("white"," Message: ".$messagevoc01);
         sleep(1);
